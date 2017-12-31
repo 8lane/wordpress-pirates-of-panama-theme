@@ -138,6 +138,12 @@ a:hover {
 	margin-top: 3rem;
 }
 
+.media-group__narrow {
+	max-width: 50rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .site-title {
 	margin: 0;
 	text-align: center;
@@ -196,7 +202,7 @@ a:hover {
 
 .main-nav__link {
 	text-transform: uppercase;
-	font-weight: 400;	
+	font-weight: 300;	
 }
 
 .main-header {

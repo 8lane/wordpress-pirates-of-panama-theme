@@ -1,4 +1,6 @@
-(function() {
+(function() {	
+	var scroll = new SmoothScroll('a[href*="#"]');
+
 	var soundCloudLoaded = false;		
 	
 	var loadSoundCloudMedia = function() {
@@ -14,16 +16,5 @@
 		}
 	};
 
-	window.addEventListener('scroll', loadSoundCloudMedia);
-
-
-	// setTimeout(function() {
-	// 	if (mediaElements) {
-	// 		for (var i = 0; i < mediaElements.length; i++) {
-	// 			mediaElements[i].src = mediaElements[i].dataset.src;
-	// 		}
-	// 	}
-	// }, 3000);
-
-
+	window.addEventListener('scroll', loadSoundCloudMedia);	
 })();
